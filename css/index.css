@@ -1,0 +1,1365 @@
+body, html {
+	height: 100%;
+}
+
+/*---------- BOOTSTRAP ----------*/
+*:not(.foto).focus, *:not(.foto):focus {
+	box-shadow: none !important;
+}
+
+.btn-warning {
+	color: white !important;
+	border: none !important;
+}
+
+#home .anuncio .btn-warning {
+	color: #0B324D !important;
+}
+
+/*----- SCROLLBAR -----*/
+::-webkit-scrollbar {
+	height: 4px;
+	width: 3px;
+}
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+::-webkit-scrollbar-track:hover {
+	background: #e7e7e7; 
+}
+::-webkit-scrollbar-thumb {
+	background: #f89b69; 
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #DE6320; 
+}
+
+/*---------- GENERAL ----------*/
+.rotated,
+.toggled {
+	transition: 0.3s all;
+}
+
+.rotated {
+	transform: rotate(180deg) !important;
+}
+
+#equipe .toggled {
+	height: 100% !important;
+}
+
+#cursos .toggled, 
+#para-todos .toggled {
+	height: 400px !important;
+}
+
+#equipe > div:first-child, 
+#entrevistas > div:first-child,
+#cursos > div:first-child,
+#sqi > div:first-child, 
+#projeto > div:first-child,
+#inicio-treinamento > div:first-child {
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.75);
+}
+
+/*---------- NAVBAR ----------*/
+.navbar .navbar-brand {
+	width: 150px;
+}
+
+.navbar .nav-link {
+	text-transform: uppercase;
+	padding-right: 0.75rem;
+	padding-left: 0.75rem;
+}
+
+/*---------- HOME ----------*/
+#home > div > h2,
+#home > div > h3 {
+	color: dimgrey;
+	text-transform: uppercase;
+	margin: 2rem auto;
+}
+
+#home > div > h4 {
+	color: dimgrey;
+	text-transform: uppercase;
+	margin: 3rem auto 1rem;	
+}
+
+#home > div > h2,
+#home > div > h4,
+#home #facebook {
+	text-align: center;
+}
+
+#home #dicas h2  span:first-child,
+#home #dicas > .row:last-child h4 span:first-child,
+#home #facebook h4 span:nth-child(2),
+#home #blog h3 span:last-child {
+	color: #178ab8;
+}
+
+#home > div > div:last-of-type > a,
+#home #curso a {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#home #facebook > div:last-child {
+	width: 100%;
+	margin: auto;
+}
+
+/*---------- HOME HEADER ----------*/
+#home header {
+	width: 100%;
+	height: 45vh;
+	background: #0B9AA2 url('https://static-public.klickpages.com.br/uploads/media/file/697585/sem_ttulo-4-2.png') center no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#home header > div:first-child {
+	padding: 17vh 5vw 0 42vw;
+	font-size: small;
+	text-transform: uppercase;
+	color: #6BCE44;
+	text-shadow: 0 0 5px rgb(1, 74, 17);
+	font-style: italic;
+}
+
+#home header > div:first-child * {
+	font-size: x-large;
+}
+
+#home header > div:last-child {
+	height: 340px;
+	position: absolute;
+	top: 15vh;
+	left: -15vw;
+}
+
+#home header > div:last-child img {
+	height: 100%;
+	width: auto;
+}
+
+/*---------- HOME DIVIDER ----------*/
+#home .divider {
+	height: 120px;
+	background: rgba(35, 82, 88, 0.6) url('https://static-public.klickpages.com.br/uploads/media/file/697585/sem_ttulo-4-2.png') center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-blend-mode: lighten;
+	margin: 2rem auto;
+	box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+#home .divider:last-of-type {
+	margin: 3rem auto 0;
+}
+
+/*---------- HOME SOBRE ----------*/
+#home #sobre .row {
+	display: block;
+	margin: 2rem 0;
+}
+
+#home #sobre .row > div:last-of-type > *:not(p) {
+	color: rgba(0, 0, 0, 0.75);
+	text-align: center;
+}
+
+#home #sobre .row > div:last-of-type > p {
+	text-align: justify;
+	margin: 2rem auto 0;
+}
+
+#home #sobre > div:last-of-type {
+	margin-top: 3rem;
+	text-align: center;
+}
+
+#home #sobre > div:last-of-type a {
+	text-transform: uppercase;
+	font-size: x-large;
+	font-weight: bold;
+	padding: 1rem 4rem;
+}
+
+/*---------- HOME ANUNCIO ----------*/
+#home .anuncio {
+	background: #0B324D;
+	color: white;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#home .anuncio small {
+	font-style: italic;
+}
+
+#home .anuncio {
+	margin: 1rem 0 2rem;
+}
+
+#home .anuncio .row, 
+#home #blog .row {
+	display: inline-block;
+}
+
+#home .anuncio .row > div {
+	margin: 2rem auto;
+}
+
+#home .anuncio .row img {
+	width: 100%;
+}
+
+#home .anuncio .row > div:last-of-type {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#home .anuncio .row > div:last-of-type > h2 {
+	margin-top: 1rem;
+}
+
+#home .anuncio .row > div:last-of-type > *:first-child > *:not(:nth-child(2)) {
+	color: #88B8DA;
+	font-size: 1.85rem;
+}
+
+#home .anuncio .row > div:last-of-type a {
+	margin-top: 2rem;
+	padding: 1rem 8vw;
+}
+
+/*---------- HOME DICAS ----------*/
+#home .dicas-videos {
+	margin: auto;
+	display: block;
+}
+
+#home .dicas-videos > div:first-of-type {
+	width: 100%;
+	height: 320px;
+	padding: 0 0 10px;
+}
+
+#home .dicas-videos > div:first-of-type iframe {
+	width: 100%;
+	height: 98%;
+}
+
+#home .dicas-videos > div:last-of-type {
+	display: block;
+}
+
+#home .dicas-videos > div:last-of-type > div {
+	width: 100%;
+	height: 320px;
+	padding: 0 15px 15px;
+}
+
+#home .dicas-videos > div:last-of-type iframe {
+	width: 100%;
+	height: 100%;
+}
+
+#home #dicas > .row:last-of-type {
+	margin-top: 1rem;
+}
+
+#home #dicas > .row:last-of-type > div:last-child {
+	padding-top: 10px;
+	text-align: right;
+}
+
+/*---------- HOME ENTREVISTA ----------*/
+#home #entrevistas > div:last-child {
+	text-align: center;
+}
+
+/*---------- HOME CURSO ----------*/
+#home #curso .custom-row {
+	margin: 1rem 0 2rem;
+	text-align: center;
+}
+
+#home #curso .custom-row > div:first-of-type {
+	width: 90%;
+	margin: 0 auto 2rem;
+}
+
+#home #curso .custom-row img {
+	width: 100%;
+}
+
+#home #curso .custom-row > div:last-of-type {
+	padding: 0 2rem;
+}
+
+/*---------- EQUIPE ----------*/
+#equipe > div:first-child {
+	background: darkgrey url("//static-public.klickpages.com.br/uploads/media/file/717495/equipe9.png") center no-repeat;
+	background-size: cover;
+	background-blend-mode: overlay;
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
+#equipe > div:first-child > * {
+	text-transform: uppercase;
+	padding: 5rem 0;
+}
+
+#equipe .col {
+	margin-bottom: 40px;
+}
+
+#equipe .card {
+	margin: 0 auto;
+	padding: 0;
+	border: none;
+	width: 250px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#equipe .card-body {
+	padding: 0;
+	border: none;
+	position: relative;
+}
+
+#equipe .col:not(:last-child) .card-body > div:first-child {
+	height: 0;
+	width: 100%;
+	overflow-y: scroll;
+	transition: 0.3s all;
+	position: absolute;
+	background-color: white;
+}
+
+#equipe .col:not(:last-child) .card-body > div:first-child div {
+	padding: 10px 15px;
+	text-align: justify; 
+}
+
+#equipe .card-body > img {
+	width: 100%;
+	height: auto;
+}
+
+#equipe .card-body > p {
+	padding: 1.25rem 1.25rem 0;
+	margin: auto;
+}
+
+#equipe .card-body > p > span {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+#equipe .card-footer {
+	border-top: none;
+	background-color: inherit;
+	padding-bottom: 1.25rem;
+}
+
+#equipe .card-footer button {
+	display: inline-block;
+}
+
+#equipe .card-footer button:first-child {
+	padding-left: 3.2rem;
+	padding-right: 3rem;
+	border-right: 1px solid white;
+}
+
+#equipe .card-footer button.disabled {
+	opacity: 1 !important;
+	border-left: 1px solid white;
+	cursor: default;
+}
+
+#equipe .card-footer button.disabled > span {
+	display:inline-block;
+	transition: 0.35s all;
+	transform:rotate(0deg);
+}
+
+#equipe .seja-coach {
+	/*visibility: hidden;*/
+}
+
+#equipe .seja-coach .card .card-body {
+	position: relative;
+}
+
+#equipe .seja-coach .card .card-body > div:first-child {
+	background: darkgrey url('../img/coaches/img-nome-16.jpg') center no-repeat;
+	background-size: cover;
+	background-blend-mode: multiply;
+	filter: blur(10px);
+	width: auto;
+	height: 330px;
+	margin: 10px;
+}
+
+#equipe .seja-coach .card .card-body > span:nth-child(2) {
+	position: absolute;
+	top: 30%;
+	left: 16%;
+	text-align: center;
+	font-weight: bold;
+	font-size: x-large;
+	background: rgba(0, 0, 0, 0.2);
+	color: white;
+	padding: 15px 30px;
+	border: 2px solid white;
+}
+
+#equipe .seja-coach .card .card-footer button.disabled > span:last-child {
+	display: inline-block;
+	transform: rotate(90deg);
+}
+
+/*---------- BLOG ----------*/
+#blog {
+	margin-top: 2rem;
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 0 2rem;
+}
+
+#blog .row .col {
+	margin: 2rem auto;
+}
+
+#blog .card {
+	height: 100%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+}
+
+#blog .card-body,
+#blog .card-body img {
+	border-radius: 10px 10px 0 0;
+}
+
+#blog .card-footer {
+	padding-top: 3rem;
+	border-radius: 0 0 10px 10px;
+}
+
+/*---------- ENTREVISTAS ----------*/
+#entrevistas > div:first-child {
+	background: darkgrey url("//static-public.klickpages.com.br/uploads/media/file/717553/depoimentos1.png") center no-repeat;
+	background-size: cover;
+	background-blend-mode: multiply;
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
+#entrevistas > div:first-child > * {
+	text-transform: uppercase;
+	padding: 5rem 0;
+	color: aliceblue;
+}
+
+#entrevistas > div:first-child > * > span:last-child {
+	color: darkorange;
+}
+
+#entrevistas .col,
+#aula-gratuita .col {
+	margin-bottom: 40px;
+}
+
+#entrevistas .card,
+#aula-gratuita .card {
+	margin: 0 auto;
+	width: 250px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#entrevistas .card, 
+#entrevistas .card-body,
+#blog .card, 
+#blog .card-body,
+#aula-gratuita .card, 
+#aula-gratuita .card-body {
+	padding: 0;
+	border: none;
+}
+
+#entrevistas .card-body > img,
+#blog .card-body > img,
+#aula-gratuita .card-body > img {
+	width: 100%;
+	height: auto;
+}
+
+#entrevistas .card-body p,
+#blog .card-body p,
+#aula-gratuita .card-body p {
+	padding: 1.25rem 1.25rem 0;
+	margin: auto;
+}
+
+#entrevistas .card-body .nome,
+#aula-gratuita .card-body .nome {
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+#entrevistas .card-footer,
+#blog .card-footer,
+#aula-gratuita .card-footer {
+	border-top: none;
+	background-color: inherit;
+	padding-bottom: 1.25rem;
+}
+
+#entrevistas .card-footer a,
+#blog .card-footer a,
+#aula-gratuita .card-footer a {
+	display: inline-block;
+}
+
+#entrevistas .card-footer button.disabled span,
+#aula-gratuita .card-footer button.disabled span {
+	display: inline-block;
+	transform: rotate(90deg);
+}
+
+#entrevistas .card-footer button.disabled,
+#aula-gratuita .card-footer button.disabled {
+	opacity: 1 !important;
+	border-right: 1px solid white;
+	cursor: default;
+}
+
+#entrevistas .card-footer a:nth-child(2),
+#aula-gratuita .card-footer a:nth-child(2) {
+	padding-right: 3.8rem;
+	padding-left: 3rem;
+	border-left: 1px solid white;
+}
+
+/*---------- AULA GRATUITA ----------*/
+#aula-gratuita h2,
+#aula-gratuita h3 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #003B59;
+	margin: 3.5rem auto 1.5rem;
+}
+
+#aula-gratuita > .container > div:nth-of-type(2) {
+	width: 100%;
+	margin: 2rem auto;
+}
+
+#aula-gratuita .row + div {
+	padding-bottom: 3rem;
+	text-align: center;
+}
+
+#aula-gratuita button:not(.disabled) {
+	text-transform: uppercase;
+	padding: 0.5rem 1.5rem;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*---------- CURSOS ----------*/
+#cursos > div:first-child {
+	background: darkgrey url("//static-public.klickpages.com.br/uploads/media/file/717534/cursos4.png") center no-repeat;
+	background-size: cover;
+	background-blend-mode: multiply;
+	margin-bottom: 4rem;
+	text-align: center;
+}
+
+#cursos > div:first-child > * {
+	text-transform: uppercase;
+	padding: 5rem 0;
+	color: aliceblue;
+}
+
+#cursos > .container > .row, 
+#para-todos > .container > .row {
+	display: inline;
+	margin-bottom: 1.2rem;
+}
+
+#cursos > .container > .row > div:first-child,
+#para-todos > .container > .row > div:first-child {
+	max-width: 100%;
+	height: auto;
+	margin: auto auto 1rem;
+}
+
+#cursos > .container > .row > div:first-child > img, 
+#para-todos > .container > .row > div:first-child > img {
+	width: 100%;
+}
+
+#cursos .container > .row > div:last-child, 
+#para-todos .container > .row > div:last-child {
+	margin-bottom: 2rem;
+}
+
+#cursos .card {
+	border-color: none;
+}
+
+#cursos .card-header .row, 
+#para-todos .card-header .row {
+	display: inline;
+}
+
+#cursos .card-header .row, 
+#cursos .card-header .text-right, 
+#para-todos .card-header .row, 
+#para-todos .card-header .text-right {
+	text-align: center !important;
+}
+
+#cursos .card-header .row > div:first-child p span:first-child, 
+#para-todos .card-header > .row > div:first-child p span:first-child {
+	color: #003B59;
+}
+
+#cursos .card-header .row > div:first-child p span:not(:first-child), 
+#para-todos .card-header > .row > div:first-child p span:not(:first-child) {
+	color: var(--success);
+}
+
+#cursos .card-header .text-right, 
+#para-todos .card-header .text-right {
+	padding-top: 0.5rem;
+}
+
+#cursos .card-header .text-right button:first-child, 
+#para-todos .card-header .text-right a:first-child {
+	margin: auto auto 1rem;
+}
+
+#cursos .card-header .text-right button, 
+#para-todos .card-header .text-right a {
+	width: 11rem;
+}
+
+#cursos .card-header .text-right button span:last-child, 
+#para-todos .card-header .text-right a span:last-child {
+	display: inline-block;
+	transition: 0.3s all;
+}
+
+#cursos .card > .card-body, 
+#para-todos .card > .card-body {
+	height: 0;
+	width: 100%;
+	overflow-y: scroll;
+	transition: 0.3s all;	
+	background-color: white;
+	padding: 0;
+	border: none;
+}
+
+#cursos .card > .card-body > div, 
+#para-todos .card > .card-body > div {
+	padding: 1rem 1.25rem 0;
+	text-align: justify; 
+}
+
+#cursos .card > .card-body u {
+	cursor: pointer;
+	font-style: italic;
+}
+
+#cursos .card > .card-body h5 + ul li:last-child strong {
+	color: var(--success);
+}
+
+#curso-modal .modal-content,
+#curso-modal .modal-body {
+	padding: 0;
+}
+
+#curso-modal .modal-body,
+#curso-modal .modal-body > iframe {
+	height: 282px;
+}
+
+/*---------- PARA TODOS ----------*/
+#para-todos > .container > div:first-child > h5 {
+	letter-spacing: 0.5rem;
+	color: coral;
+	margin-bottom: 0;
+}
+
+#para-todos > .container > div:first-child > * {
+	text-align: center;
+	text-transform: uppercase;
+	color: #003B59;
+}
+
+#para-todos > .container > div:first-child > div:last-child {
+	width: 100%;
+	margin: 2rem auto 5rem;
+}
+
+#para-todos .card > .card-body > div img {
+	width: 100%;
+}
+
+/*---------- SQI ----------*/
+#sqi > div:first-child {
+	background: darkgrey url('https://static-public.klickpages.com.br/uploads/media/file/1025166/simulados2.jpg') center no-repeat;
+	background-size: cover;
+	background-blend-mode: multiply;
+	text-align: center;
+}
+
+#sqi > div:first-child img {
+	width: 50%;
+	height: auto;
+	margin: 3% auto 4%;
+}
+
+#sqi .sqi-planos .disponivel > h3 {
+	margin-top: 0.5rem;
+	letter-spacing: 5px;
+	color: rgb(20, 97, 80);
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#sqi > .container > div:first-child .row, 
+#sqi .sqi-demo .card-deck {
+	display: inline-block;
+}
+
+#sqi > .container > div:first-child h3,
+#sqi > .container > div:first-child .col i,
+#sqi > .container > div:first-child .col h4,
+#sqi .sqi-demo > div:first-child h3 span:last-of-type {
+	color: rgb(20, 80, 97);
+}
+
+#sqi > .container > div:first-child {
+	padding: 3rem 2rem;
+}
+
+#sqi > .container > div:first-child .row {
+	padding-top: 2rem;
+}
+
+#sqi > .container > div:first-child .row > div i {
+	margin-bottom: 1rem;
+}
+
+#sqi > .container > div:first-child .col h4 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#sqi .sqi-planos .row,
+#sqi .sqi-demo .card-deck {
+	width: 90%;
+	margin: 2rem auto;
+}
+
+#sqi .sqi-planos > div > span:last-of-type {
+	letter-spacing: 3px;
+}
+
+#sqi .sqi-planos .row > div {
+	padding: 0;
+	margin: 2rem 0.5rem;
+}
+
+#sqi .sqi-planos .card {
+	min-width: 200px;
+	max-width: 300px;
+	height: 600px;
+	margin: 0 auto;
+	border-radius: 5px;
+	color: rgb(20, 97, 80);
+	background-color: rgba(158, 226, 196, 0.1);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#sqi .sqi-planos .card.disabled {
+	opacity: 0.65;
+}
+
+#sqi .sqi-planos .card .sale {
+	position: absolute;
+	top: -2rem;
+	left: -2.5rem;
+	color: rgb(255, 50, 50);
+	display: none;
+}
+
+#sqi .sqi-planos hr {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%);
+	width: 30%;
+	border-top-color:rgb(20, 97, 80); 
+}
+
+#sqi .sqi-planos .card-header,
+#sqi .sqi-planos .card-body,
+#sqi .sqi-planos .card-footer {
+	background-color: inherit;
+	border: none;
+}
+
+#sqi .sqi-planos .card-header {
+	padding: 2rem 0 1.5rem;
+}
+
+#sqi .sqi-planos .card-header > span:first-child {
+	margin-bottom: 0.5rem;
+}
+
+#sqi .sqi-planos .card-header .preco-desconto {
+	visibility: hidden;
+	font-weight: bold;
+}
+
+#sqi .sqi-planos .card-body {
+	padding: 1rem 0;
+	font-style: italic;
+}
+
+#sqi .sqi-planos .card-body h3 {
+	margin-top: 0.5rem;
+	color: inherit;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#sqi .sqi-planos .card-footer {
+	padding: 1.5rem;
+	border-top: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+#sqi .sqi-planos .card-footer ul {
+	padding: 0;
+	margin: auto;
+	list-style-type: none;
+}
+
+#sqi .disponivel {
+	padding: 4rem 0 1rem;
+}
+
+#sqi .disponivel .card-footer button {
+	margin: auto;
+	background-color: #5cb85c;
+}
+
+#sqi .sqi-demo > div:first-child {
+	text-align: left;
+	padding: 0.5rem 3rem;
+}
+
+#sqi .sqi-demo > div:first-child > h3 {
+	text-transform: uppercase;
+}
+
+#sqi .sqi-demo .card {
+	margin: 2rem 0;
+	padding: 0;
+	border: none;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#sqi .sqi-demo .card-body {
+	padding: 0;
+	border: none;
+	text-align: left;
+}
+
+#sqi .sqi-demo .card-body p {
+	padding: 1.25rem 1.25rem 0;
+	margin: auto;
+}
+
+#sqi .sqi-demo .card-footer {
+	border-top: none;
+	background-color: inherit;
+	padding-bottom: 1.25rem;
+}
+
+#sqi .sqi-demo .card-deck + div:last-child {
+	margin: 0 0 5rem;
+}
+
+#sqi .sqi-demo .card-deck + div:last-child > div {
+	padding-top: 1.5rem;
+}
+
+#sqi .sqi-demo .card-deck + div:last-child button {
+	padding: 1rem 2rem;
+	background-color: #5bc0de;
+}
+
+/*--------- PROJETO ---------*/
+#projeto > div:first-child {
+	background: darkgrey url("//static-public.klickpages.com.br/uploads/media/file/717389/projeto4.jpg") center no-repeat;
+	background-size: cover;
+	background-blend-mode: multiply;
+	margin-bottom: 4rem;
+	text-align: center;
+}
+
+#projeto > div:first-child > * {
+	text-transform: uppercase;
+	padding: 5rem 0;
+	color: aliceblue;
+}
+
+#projeto h2 {
+	margin: 4rem auto 0;
+	text-align: center;
+	color: #003B59;
+}
+
+#projeto .container > div:first-child h2 {
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+
+#projeto p {
+	text-align: justify;
+	margin: 1.75rem 2rem;
+}
+
+#projeto ul {
+	padding: 0 2rem;
+}
+
+#projeto li {
+	margin-bottom: 0.75rem;
+	text-align: justify; 
+}
+
+#projeto .frase,
+#inicio-treinamento .frase {
+	width: 80vw;
+	float: right;
+	text-align: right;
+	margin: 1rem 3% 3rem 100%;
+}
+
+#projeto .frase span:first-of-type,
+#inicio-treinamento .frase span:first-of-type {
+	font-style: italic;
+	text-align: justify;
+	font-weight: bold;
+}
+
+#projeto .frase span:last-of-type,
+#inicio-treinamento .frase span:last-of-type {
+	font-size: small;
+}
+
+#projeto .custom-row {
+	margin: 1rem 0 2rem;
+}
+
+#projeto .custom-row > div:first-of-type {
+	width: 90%;
+	margin: 2rem auto;
+}
+
+#projeto .custom-row img {
+	width: 100%;
+}
+
+#projeto .container > div:nth-last-child(2) {
+	width: 100%;
+	margin: 2rem auto 3rem;
+}
+
+#projeto .container > div:last-child {
+	display: block;
+	margin: 3rem auto;
+}
+
+#projeto .container > div:last-child > div:first-child {
+	margin-bottom: 1rem;
+}
+
+#projeto .container > div:nth-last-child(2), 
+#para-todos > .container > div:first-child > div:last-child, 
+#aula-gratuita > .container > div:nth-of-type(2) {
+	height: 290px;
+}
+
+/*---------- INICIO TREINAMENTO ----------*/
+#inicio-treinamento > div:first-child {
+	background: darkgrey url("//static-public.klickpages.com.br/uploads/media/file/719010/inicio3.png") center no-repeat;
+	background-size: cover;
+	background-blend-mode: multiply;
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
+#inicio-treinamento > div:first-child > * {
+	text-transform: uppercase;
+	padding: 5rem 0;
+	color: aliceblue;
+}
+
+#inicio-treinamento h5 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#inicio-treinamento p {
+	margin: 1.75rem auto;
+}
+
+#inicio-treinamento .container > div:last-of-type {
+	margin: 2rem auto;
+}
+
+#inicio-treinamento .container > div:last-of-type a {
+	display: inline-block;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/*---------- FOOTER ----------*/
+footer {
+	position: relative;
+	width: 100%;
+	padding-bottom: 30px;
+	text-align: center;
+	background-color: rgba(0, 15, 30, 0.9);
+	color: white;
+}
+
+footer .footer-media {
+	padding-top: 20px;
+	font-size: 27px;
+}
+
+footer .footer-media * {
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+footer .footer-media a:first-child{
+	color: cornflowerblue;
+}
+
+footer .footer-media a:nth-child(2) {
+	color: orange;
+}
+
+footer .footer-media a:nth-last-child(2) {
+	color: tomato;
+}
+
+footer .footer-media a:last-child {
+	color: deepskyblue;
+	font-size: 25px;
+}
+
+footer > div:nth-child(2) {
+	background-color: rgba(114, 127, 160, 0.1);
+	margin: 1.5rem auto;
+}
+
+footer > div:nth-child(2) > *:first-child {
+	padding-top: 2rem;
+	text-transform: uppercase;
+}
+
+footer form {
+	width: 90%;
+	margin: auto;
+	padding: 1rem 0 3rem;
+	text-align: left;
+}
+
+footer label {
+	font-weight: bold;
+}
+
+footer form #formEmail {
+	border-top-right-radius: .25rem !important;
+	border-bottom-right-radius: .25rem !important;
+}
+
+footer form > .btn-warning {
+	padding: 0.5rem 1.5rem;
+	text-transform: uppercase;
+	color: #2C3949 !important;
+	font-weight: bold;
+}
+
+footer .container:last-child > img {
+	width: 100%;
+	padding: 10px;
+}
+
+footer .container:last-child > div:nth-last-child(2) {
+	padding: 0;
+	text-align: center;
+	margin-left: auto;
+}
+
+footer .container:last-child > div:last-child {
+	font-size: 15px;
+	opacity: 0.5;
+	text-align: center;
+	word-break: break-word;
+	font-style: italic;
+	padding: 0 0 1rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	#home #facebook > div:last-child {
+		width: 80%;
+	}
+
+	#home header > div:first-child {
+		padding: 20vh 5vw 0 50vw;
+	}
+
+	#home header > div:first-child * {
+		font-size: xx-large;
+	}
+
+	#home header > div:last-child {
+		height: 400px;
+		top: 10vh;
+		left: 0vw;
+	}
+
+	#home .dicas-videos > div:first-of-type {
+		height: 380px;
+		padding: 0 0 15px;
+	}
+
+	#home .dicas-videos > div:last-of-type {
+		display: flex;
+	}
+
+	#home .dicas-videos > div:last-of-type > div {
+		height: initial;
+		padding: 0 15px;
+	}
+
+	#projeto .container > div:last-child {
+		display: flex;
+	}
+
+	#projeto .container > div:last-child > div:first-child {
+		margin-bottom: 0;
+	}
+
+	#sqi .sqi-planos .card .sale {
+		top: -3rem;
+		left: -3.5rem;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	#home #facebook > div:last-child {
+		width: 60%;
+	}
+
+	#home header > div:first-child * {
+		font-size: 2rem;
+	}
+	
+	#home header > div:last-child {
+		height: 430px;
+	}
+
+	#home #sobre .row {
+		display: flex;
+	}
+
+	#home .anuncio .row, 
+	#home #blog .row {
+		display: flex;
+	}
+
+	#cursos .container > .row, 
+	#para-todos > .container > .row {
+		display: flex;
+	}
+
+	#cursos .container > .row > div:first-child, 
+	#para-todos .container > .row > div:first-child {
+		max-width: 300px;
+		height: 180px;
+		margin: 0;
+	}
+
+	#sqi > .container > div:first-child .row, 
+	#sqi .sqi-demo .card-deck {
+		display: flex;
+	}
+
+	#sqi .sqi-demo .card-deck + div:last-child {
+		margin: 3rem 0 5rem;
+	}
+
+	#sqi .sqi-demo .card {
+		margin: 0.5rem;
+	}
+
+	#sqi .sqi-demo .card-deck + div:last-child button {
+		font-size: 1.5rem;
+	}
+
+	#projeto .container > div:nth-last-child(2), 
+	#para-todos > .container > div:first-child > div:last-child, 
+	#aula-gratuita > .container > div:nth-of-type(2) {
+		width: 75%;
+	}
+
+	#projeto .frase, #inicio-treinamento .frase {
+		width: 400px
+	}
+
+	footer form {
+		width: 60%;
+	}
+
+	footer .container:last-child > img {
+		float: left;
+		width: 300px;
+	}
+
+	footer .container:last-child > div:nth-last-child(2) {
+		padding: 50px 10px 0px 0px;
+		text-align: right;
+	}
+
+	footer .container:last-child > div:last-child {
+		padding: 1rem 0;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	#home #facebook > div:last-child {
+		width: 40%;
+	}
+
+	#home header > div:first-child * {
+		font-size: 2.5rem;
+	}
+
+	#home header > div:last-child {
+		height: 480px;
+		top: 8vh;
+		left: 8vw;
+	}
+
+	#home .dicas-videos {
+		display: inline-flex;
+	}
+
+	#home .dicas-videos > div:first-of-type {
+		width: 60vw;
+		height: initial;
+		padding: 0 15px 0 0;
+	}
+
+	#home .dicas-videos > div:last-of-type {
+		display: initial;
+	}
+
+	#home #curso .custom-row {
+		text-align: left;
+	}
+
+	#home #curso .custom-row > div:first-of-type {
+		width: 400px;
+		float: left;
+	}
+
+	#home #curso .custom-row > div:last-of-type {
+		padding: 0 0 2rem 45%;
+	}
+
+	#cursos .card-header .row, 
+	#para-todos .card-header .row {
+		display: flex;
+		text-align: left !important;
+	}
+
+	#cursos .card-header .text-right, 
+	#para-todos .card-header .text-right {
+		max-width: 200px;
+	}
+
+	#projeto .container > div:nth-last-child(2), 
+	#para-todos > .container > div:first-child > div:last-child, 
+	#aula-gratuita > .container > div:nth-of-type(2) {
+		height: 400px;
+	}
+
+	#projeto .custom-row > div:first-of-type {
+		width: 350px;
+		float: left;
+		margin: 4rem 8%;
+	}
+
+	#projeto .custom-row > div:last-of-type {
+		padding: 3.5rem 0 3.5rem 54%;
+	}
+
+	#projeto .custom-row:nth-of-type(2) > div:last-of-type,
+	#projeto .container > div:nth-child(7) .custom-row > div:last-of-type {
+		padding: 2rem 0 2rem 54%;
+	}
+
+	#projeto .container > div:nth-child(5) .custom-row > div:last-of-type {
+		padding: 1rem 0 1rem 50%;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	#projeto .container > div:nth-last-child(2), 
+	#para-todos > .container > div:first-child > div:last-child, 
+	#aula-gratuita > .container > div:nth-of-type(2) {
+		height: 495px;
+	}
+
+	#projeto .custom-row > div:first-of-type {
+		margin: 2rem 5% 2rem 8%;
+	}
+
+	#projeto .custom-row > div:last-of-type {
+		padding: 3.5rem 0 3.5rem 45%;
+	}
+
+	#projeto .custom-row:nth-of-type(2) > div:last-of-type,
+	#projeto .container > div:nth-child(7) .custom-row > div:last-of-type {
+		padding: 2rem 0 2rem 45%;
+	}
+
+	#projeto .container > div:nth-child(5) .custom-row > div:last-of-type {
+		padding: 1rem 0 1rem 45%;
+	}
+}
