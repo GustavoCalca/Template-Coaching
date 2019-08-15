@@ -422,9 +422,9 @@
 									</p>
 								</div>
 								<div class="col text-right">
-									<button class="btn btn-success">
+									<a href="./para-todos.php" role="button" class="btn btn-success">
 										Para Todos
-									</button>
+									</a>
 									<br>
 									<button class="btn btn-secondary" style="display:none;">
 										<span>Saber Mais</span>
@@ -1372,29 +1372,7 @@
 			</div>
 		</div>
 	</div>
-
-	<!-- MODAL AULA DEMONSTRATIVA -->
-	<div id="curso-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered" role="document">
-			<div class="modal-content">
-				<div class="modal-body">
-					<iframe src="" width="100%" frameborder="0" allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- MODAL AULA DEMONSTRATIVA -->
-	<div id="curso-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered" role="document">
-			<div class="modal-content">
-				<div class="modal-body">
-					<iframe src="" width="100%" frameborder="0" allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
-	</div>
-
+	
 	<!-- MODAL AULA DEMONSTRATIVA -->
 	<div id="curso-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered" role="document">
