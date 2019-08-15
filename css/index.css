@@ -114,7 +114,7 @@ body, html {
 #home header {
 	width: 100%;
 	height: 45vh;
-	background: #0B9AA2 url('https://static-public.klickpages.com.br/uploads/media/file/697585/sem_ttulo-4-2.png') center no-repeat;
+	background: #0B9AA2 url('../img/banners/banner_home.png') center no-repeat;
 	background-size: cover;
 	position: relative;
 	overflow: hidden;
@@ -149,7 +149,7 @@ body, html {
 /*---------- HOME DIVIDER ----------*/
 #home .divider {
 	height: 120px;
-	background: rgba(35, 82, 88, 0.6) url('https://static-public.klickpages.com.br/uploads/media/file/697585/sem_ttulo-4-2.png') center no-repeat;
+	background: rgba(35, 82, 88, 0.6) url('../img/banners/banner_home.png') center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	background-blend-mode: lighten;
@@ -303,7 +303,7 @@ body, html {
 
 /*---------- EQUIPE ----------*/
 #equipe > div:first-child {
-	background: darkgrey url("//static-public.klickpages.com.br/uploads/media/file/717495/equipe9.png") center no-repeat;
+	background: darkgrey url("../img/banners/banner_equipe.png") center no-repeat;
 	background-size: cover;
 	background-blend-mode: overlay;
 	text-align: center;
@@ -455,7 +455,7 @@ body, html {
 
 /*---------- ENTREVISTAS ----------*/
 #entrevistas > div:first-child {
-	background: darkgrey url("//static-public.klickpages.com.br/uploads/media/file/717553/depoimentos1.png") center no-repeat;
+	background: darkgrey url("../img/banners/banner_entrevistas.png") center no-repeat;
 	background-size: cover;
 	background-blend-mode: multiply;
 	text-align: center;
@@ -575,7 +575,7 @@ body, html {
 
 /*---------- CURSOS ----------*/
 #cursos > div:first-child {
-	background: darkgrey url("//static-public.klickpages.com.br/uploads/media/file/717534/cursos4.png") center no-repeat;
+	background: darkgrey url("../img/banners/banner_cursos.png") center no-repeat;
 	background-size: cover;
 	background-blend-mode: multiply;
 	margin-bottom: 4rem;
@@ -718,7 +718,7 @@ body, html {
 
 /*---------- SQI ----------*/
 #sqi > div:first-child {
-	background: darkgrey url('https://static-public.klickpages.com.br/uploads/media/file/1025166/simulados2.jpg') center no-repeat;
+	background: darkgrey url('../img/banners/banner_sqi.png') center no-repeat;
 	background-size: cover;
 	background-blend-mode: multiply;
 	text-align: center;
@@ -914,7 +914,7 @@ body, html {
 
 /*--------- PROJETO ---------*/
 #projeto > div:first-child {
-	background: darkgrey url("//static-public.klickpages.com.br/uploads/media/file/717389/projeto4.jpg") center no-repeat;
+	background: darkgrey url("../img/banners/banner_projeto.png") center no-repeat;
 	background-size: cover;
 	background-blend-mode: multiply;
 	margin-bottom: 4rem;
@@ -1007,7 +1007,7 @@ body, html {
 
 /*---------- INICIO TREINAMENTO ----------*/
 #inicio-treinamento > div:first-child {
-	background: darkgrey url("//static-public.klickpages.com.br/uploads/media/file/719010/inicio3.png") center no-repeat;
+	background: darkgrey url("../img/banners/banner_treinamento.png") center no-repeat;
 	background-size: cover;
 	background-blend-mode: multiply;
 	text-align: center;
