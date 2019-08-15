@@ -229,12 +229,12 @@
 			</div>
 			<div class="row">
 				<div class="col">
-					<a href="javascript:void(0)" role="button" class="btn btn-info btn-block btn-lg">
+					<a href="https://drive.google.com/file/d/1niLEBhHNAgsIAkebqsYt339Wm0DkCNE3/view" target="_blank" role="button" class="btn btn-info btn-block btn-lg">
 						Detalhes sobre o Treinamento
 					</a>
 				</div>
 				<div class="col">
-					<a href="javascript:void(0)" role="button" class="btn btn-success btn-block btn-lg">
+					<a href="./inicio-treinamento.php" role="button" class="btn btn-success btn-block btn-lg">
 						Iniciar Treinamento
 					</a>
 				</div>
