@@ -567,10 +567,15 @@ body, html {
 	text-align: center;
 }
 
-#aula-gratuita button:not(.disabled) {
+#aula-gratuita button:not(.disabled),
+#aula-gratuita a[role="button"] {
 	text-transform: uppercase;
 	padding: 0.5rem 1.5rem;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#aula-gratuita .btn-info {
+	color: #fff;
 }
 
 /*---------- CURSOS ----------*/
@@ -643,16 +648,19 @@ body, html {
 }
 
 #cursos .card-header .text-right button:first-child, 
+#cursos .card-header .text-right a:first-child,
 #para-todos .card-header .text-right a:first-child {
 	margin: auto auto 1rem;
 }
 
 #cursos .card-header .text-right button, 
+#cursos .card-header .text-right a, 
 #para-todos .card-header .text-right a {
 	width: 11rem;
 }
 
 #cursos .card-header .text-right button span:last-child, 
+#cursos .card-header .text-right a span:last-child, 
 #para-todos .card-header .text-right a span:last-child {
 	display: inline-block;
 	transition: 0.3s all;
@@ -907,9 +915,10 @@ body, html {
 	padding-top: 1.5rem;
 }
 
-#sqi .sqi-demo .card-deck + div:last-child button {
+#sqi .sqi-demo .card-deck + div:last-child a {
 	padding: 1rem 2rem;
 	background-color: #5bc0de;
+	color: #fff;
 }
 
 /*--------- PROJETO ---------*/
