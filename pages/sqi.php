@@ -237,7 +237,7 @@
 					</div>
 				</div>
 				<div>
-					<button class="btn btn-info btn-lg">Acessar Caderno de Demonstração</button>
+					<a href="sistema.coachingconcurseiros.net/" target="_blank" role="button" class="btn btn-info btn-lg">Acessar Caderno de Demonstração</a>
 				</div>
 			</div>
 		</div>
