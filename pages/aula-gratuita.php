@@ -237,9 +237,9 @@
 					</div>
 				</div>
 				<div>
-					<button class="btn btn-info">
+					<a href="./entrevistas.php" role="button" class="btn btn-info">
 						Mais Entrevistas e Depoimentos
-					</button>
+					</a>
 				</div>
 			</div>
 		</div>
