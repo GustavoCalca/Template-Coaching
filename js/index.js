@@ -79,7 +79,7 @@ function setCoachImg() {
 	let id = 1;
 	$('#equipe .row > .col:not(:last-child) > .card').each(function(e) {
 		$('.card-body > img', this).attr('alt', $('.card-body p > span', this).text());
-		$('.card-body > img', this).attr('src', './img/coaches/img-nome-'+id+'.jpg');
+		$('.card-body > img', this).attr('src', '../img/coaches/img-nome-'+id+'.jpg');
 
 		id += 1;
 	});
